@@ -195,25 +195,25 @@
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "symbols.files.associations": {
-      ".env.example": "gear",
-      "*.e2e-spec.ts": "ts-test",
-      "*.guard.ts": "typescript",
-      "*.module.ts": "nest",
-      "*.spec.ts": "ts-test",
-      "vitest.config.e2e.ts": "vite"
-  },
+    ".env.example": "gear",
+    "*.e2e-spec.ts": "ts-test",
+    "*.guard.ts": "typescript",
+    "*.module.ts": "nest",
+    "*.spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite"
+},
   "symbols.hidesExplorerArrows": false,
   "tailwindCSS.experimental.classRegex": [
-      [
-          "tv\\(([^)]*)\)",
-          "[\"'`]([^"'`]*).*?["'`]"
-      ]
+    [
+        "tv\\(([^)]*)\\)",
+        "[\"'`]([^\"'`]*)[\"'`]"
+    ]
   ],
-  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.env.osx": {
       "FIG_NEW_SESSION": "1"
   },
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.showExitAlert": false,
